@@ -1,0 +1,3 @@
+rgb(223, 3, 3) Reddish orange
+rgb(2, 7, 70) dark blue
+rgb(23, 162, 184) Altra link color

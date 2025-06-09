@@ -1,0 +1,109 @@
+footer {
+    height: 500px;
+    background: rgb(2, 7, 70);
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .tel-numbers,
+footer .email,
+footer .website,
+footer .location {
+    text-align: center;
+}
+
+footer img {
+    width: 30px;
+}
+
+footer .tel-numbers img,
+footer .email img,
+footer .website img,
+footer .location img {
+    transition: transform 0.3s;
+}
+
+footer .tel-numbers img:hover,
+footer .email img:hover,
+footer .website img:hover,
+footer .location img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: rgb(223, 3, 3);
+    transition: color 0.3s;
+}
+
+footer .designer a{
+    color: rgb(223, 3, 3);
+}
+
+.footer-grid {
+    flex: 1;
+    display: grid;
+    align-items: center;
+    padding-top: 50px;
+    
+
+}
+
+footer .copyright {
+    background: rgb(1, 4, 50);
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+@media (min-width: 600px){
+    footer {
+        justify-content: center;
+        font-size: 15px;
+    }
+
+    footer img {
+        width: 40px;
+    }
+
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 200px 200px;
+        justify-content: center;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 1024px){
+    footer {
+        font-size: 16px;
+    }
+    .footer-grid {
+        align-items: start;
+        gap: 20px;
+        grid-template-columns:  200px 200px 200px 200px;
+    }
+
+    footer .tel-numbers,
+    footer .email,
+    footer .website,
+    footer .location {
+        padding-top: 100px;
+    }
+}
+
+@media (min-width: 1440px){
+    footer {
+        font-size: 20px;
+    }
+
+    .footer-grid {
+    grid-template-columns:  250px 250px 250px 250px;
+    }
+}

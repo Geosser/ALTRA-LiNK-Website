@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #F2F2F2;
+    font-family: "Poppins", "Roboto", "ITC Avant Garde Gothic";
+}
+
+a {
+    text-decoration: none;
+}
+
+.company-name {
+    color: rgb(23, 162, 184);
+}
