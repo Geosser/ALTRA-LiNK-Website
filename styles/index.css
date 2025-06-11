@@ -4,7 +4,7 @@
     background-size: cover;
     color: white;
     padding: 20px;
-    margin-top: 145px;
+    margin-top: 152px;
     margin-bottom: 10px;
 }
 
@@ -177,7 +177,7 @@
     .short-description {
         height: 600px;
         padding: 40px;
-        margin-top: 100px;
+        margin-top: 108px;
     }
 
     .short-description a {
@@ -220,7 +220,7 @@
 
 @media (min-width: 1024px){
     .short-description {
-        margin-top: 140px;
+        margin-top: 133px;
         text-align: center;
     }
 

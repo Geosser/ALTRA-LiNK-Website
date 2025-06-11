@@ -15,7 +15,7 @@ header a {
 }
 
 .altra-link-logo {
-    width: 80px;
+    width: 75px;
     border-radius: 10px;
 }
 
@@ -53,14 +53,14 @@ nav ul li a:hover {
     }
 
     .altra-link-logo {
-        width: 100px;
+        width: 85px;
     }
 
 }
 
 @media (min-width: 1024px){
     .altra-link-logo {
-        width: 150px;
+        width: 110px;
     }
 }
 
